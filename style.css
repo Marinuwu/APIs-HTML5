@@ -1,0 +1,66 @@
+/* Google Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Estilos globales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo de la página */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #282a36;
+    font-family: 'Roboto', sans-serif;
+    color: #f8f8f2;
+}
+
+video {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.controls {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Botones personalizados */
+.controls button {
+    background-color: #6272a4;
+    color: #f8f8f2;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.controls button:hover {
+    background-color: #44475a;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.controls button:focus {
+    outline: none;
+}
+
+#loading {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+
